@@ -3,8 +3,8 @@ html{
     --footer-backround: black;
     --button-color: black;
     --text-color: rgb(240, 240, 240);
-
 }
+
 
 body{
     font-size: 16;
@@ -52,7 +52,7 @@ body{
 .footer{
     font-size: 16;
     background-color: var(--footer-backround);
-    width: 100vw;
+    width: 100%;
     height: 15vh;
 }
 
@@ -140,12 +140,12 @@ img{
     }
 
     .image-container{
-        height: 40vh;
+        height: 60vh;
     }
 
     img{
-        height: 40vh;
-        width: 80vw;
+        height: 100%;
+        width: 100%;
         object-fit: scale-down;
         
     }
