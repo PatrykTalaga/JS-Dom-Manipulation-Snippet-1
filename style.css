@@ -112,3 +112,41 @@ img{
 .mode-switch-D:hover{
     scale: 120%;
 }
+
+@media(width<720px){
+    .text-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    
+    .sidebar, .text-box{
+        width: 100%;
+        padding: 1rem;
+        margin: 0px;
+    }
+
+    .top-nav, .text-containe, .title.button-container{
+        margin: 0px 0%;
+    }
+
+    .image-container{
+        margin: 0px;
+    }
+
+    #mode-switch-L, #mode-switch-D{
+        margin: .75rem .25rem;
+    }
+
+    .image-container{
+        height: 40vh;
+    }
+
+    img{
+        height: 40vh;
+        width: 80vw;
+        object-fit: scale-down;
+        
+    }
+}
